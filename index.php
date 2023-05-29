@@ -16,7 +16,7 @@
     </form>
     <?php
 
-$numero = 2;
+$numero;
 
 if(isset($_POST["Verificar"])){
     $numero = $_POST["numero"];
